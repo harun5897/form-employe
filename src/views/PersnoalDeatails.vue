@@ -1,12 +1,12 @@
 <template>
   <div class="form-employe ">
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="font-bold text-[18px] text-[#323A46]">Personal Details</p>
         <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Wanted Job Title</p>
         <Input type="text" />
       </div>
-      <div class="input-file flex items-center">
+      <div class="input-file flex items-center sm:mt-0 mt-5">
         <div class="bg-[#F0F2F9] w-[60px] px-2 py-1 rounded">
           <img src="../assets/user.png" width="45" alt="">
         </div>
@@ -16,7 +16,7 @@
         </label>
       </div>
     </div>
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">First Name</p>
         <Input type="text" />
@@ -26,7 +26,7 @@
         <Input type="text" />
       </div>
     </div>
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Email</p>
         <Input type="email" />
@@ -36,7 +36,7 @@
         <Input type="number" />
       </div>
     </div>
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Address</p>
         <Input type="text" />
@@ -46,7 +46,7 @@
         <Input type="number" />
       </div>
     </div>
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Driving License</p>
         <Input type="text" />
@@ -56,7 +56,7 @@
         <Input type="text" />
       </div>
     </div>
-    <div class="px-14 grid grid-cols-2 items-end gap-10">
+    <div class="sm:px-14 px-5 sm:grid grid-cols-2 items-end gap-10">
       <div>
         <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Place Of Birth</p>
         <Input type="text" />

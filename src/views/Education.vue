@@ -1,6 +1,6 @@
 <template>
   <div class="employment-history">
-    <div class="px-14 mt-11">
+    <div class="sm:px-14 px-5 mt-11">
       <p class="font-bold text-[18px] text-[#323A46]">Education</p>
       <p class="mt-1 mb-[6px] text-sm text-[#8e929e]">A Veried education on your resume sums up the value that your learnings and background will bring to job.</p>
       <!-- Form 1 -->

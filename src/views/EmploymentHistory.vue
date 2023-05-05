@@ -1,6 +1,6 @@
 <template>
   <div class="employment-history">
-    <div class="px-14 mt-14">
+    <div class="sm:px-14 px-5 mt-14">
       <p class="font-bold text-[18px] text-[#323A46]">Employment History</p>
       <p class="mt-1 mb-[6px] text-sm text-[#8e929e]">Show your relevant expereience (last 10 years). Use bullet points to note your achievements. if posible - use numbers/facts (Achieved X. measured by Y. by doing Z</p>
       <!-- Form 1 -->

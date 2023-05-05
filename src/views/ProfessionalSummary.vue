@@ -1,5 +1,5 @@
 <template>
-  <div class="px-14 mt-14">
+  <div class="sm:px-14 px-5 mt-14">
     <p class="font-bold text-[18px] text-[#323A46]">Professional Summary</p>
     <p class="mt-1 mb-[6px] text-sm text-[#8e929e]">Write 2-4 short & energetic sentences to interest the reader! Mention your role, expereience & most importantly - your biggest achievements best qualities and skils</p>
     <div class="bg-[#F0F2F9] rounded-sm h-56 mt-4">
@@ -18,7 +18,7 @@
               <button class="ql-list" value="bullet"></button>
               <button class="ql-link"></button>
             </div>
-            <div class="flex pt-3 pr-3">
+            <div class="pt-3 pr-3 sm:flex hidden">
               <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
               <IconPlus />
             </div>
