@@ -4,6 +4,8 @@
       <PersnoalDeatails />
       <ProfessionalSummary />
       <EmploymentHistory />
+      <Education />
+      <Skills />
     </div>
   </div>
 </template>
@@ -12,4 +14,6 @@
 import PersnoalDeatails from './PersnoalDeatails.vue'
 import ProfessionalSummary from './ProfessionalSummary.vue'
 import EmploymentHistory from './EmploymentHistory.vue'
+import Education from './Education.vue'
+import Skills from './Skills.vue'
 </script>

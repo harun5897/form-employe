@@ -1,8 +1,8 @@
 <template>
   <div class="employment-history">
-    <div class="px-14 mt-14">
-      <p class="font-bold text-[18px] text-[#323A46]">Employment History</p>
-      <p class="mt-1 mb-[6px] text-sm text-[#8e929e]">Show your relevant expereience (last 10 years). Use bullet points to note your achievements. if posible - use numbers/facts (Achieved X. measured by Y. by doing Z</p>
+    <div class="px-14 mt-11">
+      <p class="font-bold text-[18px] text-[#323A46]">Education</p>
+      <p class="mt-1 mb-[6px] text-sm text-[#8e929e]">A Veried education on your resume sums up the value that your learnings and background will bring to job.</p>
       <!-- Form 1 -->
       <div class="form" :class="[employe1]">
         <div class="border-[1px] py-4 px-4 mt-3 rounded-sm">
@@ -28,11 +28,11 @@
             </div>
               <div class="grid grid-cols-2 items-end gap-8">
                 <div>
-                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Job title</p>
+                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle1" />
                 </div>
                 <div>
-                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Employer</p>
+                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">School</p>
                   <Input type="text" @EmitDataInput="getCompany1" />
                 </div>
               </div>
@@ -68,10 +68,10 @@
                 <QuillEditor
                   v-model:content="content" 
                   contentType="html"
-                  toolbar="#employe-toolbar1"
+                  toolbar="#education-toolbar1"
                 >
                 <template #toolbar>
-                  <div id="employe-toolbar1">
+                  <div id="education-toolbar1">
                     <div class="flex justify-between">
                       <div>
                         <button class="ql-bold"></button>
@@ -123,11 +123,11 @@
             </div>
               <div class="grid grid-cols-2 items-end gap-8">
                 <div>
-                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Job title</p>
+                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle2" />
                 </div>
                 <div>
-                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Employer</p>
+                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">School</p>
                   <Input type="text" @EmitDataInput="getCompany2" />
                 </div>
               </div>
@@ -163,10 +163,10 @@
                 <QuillEditor
                   v-model:content="content" 
                   contentType="html"
-                  toolbar="#employe-toolbar2"
+                  toolbar="#education-toolbar2"
                 >
                 <template #toolbar>
-                  <div id="employe-toolbar2">
+                  <div id="education-toolbar2">
                     <div class="flex justify-between">
                       <div>
                         <button class="ql-bold"></button>
@@ -218,11 +218,11 @@
             </div>
               <div class="grid grid-cols-2 items-end gap-8">
                 <div>
-                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Job title</p>
+                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle3" />
                 </div>
                 <div>
-                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Employer</p>
+                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">School</p>
                   <Input type="text" @EmitDataInput="getCompany3" />
                 </div>
               </div>
@@ -258,10 +258,10 @@
                 <QuillEditor
                   v-model:content="content" 
                   contentType="html"
-                  toolbar="#employe-toolbar3"
+                  toolbar="#education-toolbar3"
                 >
                 <template #toolbar>
-                  <div id="employe-toolbar3">
+                  <div id="education-toolbar3">
                     <div class="flex justify-between">
                       <div>
                         <button class="ql-bold"></button>
@@ -313,11 +313,11 @@
             </div>
               <div class="grid grid-cols-2 items-end gap-8">
                 <div>
-                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Job title</p>
+                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle4" />
                 </div>
                 <div>
-                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Employer</p>
+                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">School</p>
                   <Input type="text" @EmitDataInput="getCompany4" />
                 </div>
               </div>
@@ -353,10 +353,10 @@
                 <QuillEditor
                   v-model:content="content" 
                   contentType="html"
-                  toolbar="#employe-toolbar4"
+                  toolbar="#education-toolbar4"
                 >
                 <template #toolbar>
-                  <div id="employe-toolbar4">
+                  <div id="education-toolbar4">
                     <div class="flex justify-between">
                       <div>
                         <button class="ql-bold"></button>
@@ -408,11 +408,11 @@
             </div>
               <div class="grid grid-cols-2 items-end gap-8">
                 <div>
-                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Job title</p>
+                  <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle5" />
                 </div>
                 <div>
-                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Employer</p>
+                  <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">School</p>
                   <Input type="text" @EmitDataInput="getCompany5" />
                 </div>
               </div>
@@ -448,10 +448,10 @@
                 <QuillEditor
                   v-model:content="content" 
                   contentType="html"
-                  toolbar="#employe-toolbar5"
+                  toolbar="#education-toolbar5"
                 >
                 <template #toolbar>
-                  <div id="employe-toolbar5">
+                  <div id="education-toolbar5">
                     <div class="flex justify-between">
                       <div>
                         <button class="ql-bold"></button>
@@ -477,7 +477,7 @@
           </div>
         </div>
       </div>
-      <button class="text-sm font-semibold text-[#405ce6] mt-2" @click="addEmploye()"> <span class="text-xl"> + </span>Add Employment</button>
+      <button class="text-sm font-semibold text-[#405ce6] mt-2" @click="addEmploye()"> <span class="text-xl"> + </span>Add Education</button>
     </div>
   </div>
 </template>
@@ -491,7 +491,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css'
 import IconPlus from '@/components/icon/PlusCicrcle.vue'
 import IconArrow from '@/components/icon/ArrowDown.vue'
 
-const content = ref('e.g Created and implemented lesson plans based on child-led interest and curiosities')
+const content = ref('e.g Graduated with High Honors.')
 
 const showForm1 = ref('hidden')
 const hiddenForm1 = ref('hidden')
@@ -513,28 +513,28 @@ const showForm5 = ref('hidden')
 const hiddenForm5 = ref('hidden')
 const employe5 =  ref('hidden')
 
-const jobTitle1 = ref('Job title')
-const company1 = ref('Company')
+const jobTitle1 = ref('Degree')
+const company1 = ref('Shcool')
 const startDate1 = ref('')
 const endDate1 = ref('')
 
-const jobTitle2 = ref('Job title')
-const company2 = ref('Company')
+const jobTitle2 = ref('Degree')
+const company2 = ref('Shcool')
 const startDate2 = ref('')
 const endDate2 = ref('')
 
-const jobTitle3 = ref('Job title')
-const company3 = ref('Company')
+const jobTitle3 = ref('Degree')
+const company3 = ref('Shcool')
 const startDate3 = ref('')
 const endDate3 = ref('')
 
-const jobTitle4 = ref('Job title')
-const company4 = ref('Company')
+const jobTitle4 = ref('Degree')
+const company4 = ref('Shcool')
 const startDate4 = ref('')
 const endDate4 = ref('')
 
-const jobTitle5 = ref('Job title')
-const company5 = ref('Company')
+const jobTitle5 = ref('Degree')
+const company5 = ref('Shcool')
 const startDate5 = ref('')
 const endDate5 = ref('')
 
