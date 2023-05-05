@@ -16,14 +16,16 @@
         </div>
         <IconArrow :class="[openCloseForm == 'block' ? 'rotate-180' : '']" />
       </div>
-      <div class="sm:grid grid-cols-2 items-end gap-8" :class="[openCloseForm]">
-        <div>
-          <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Skills</p>
-          <Input type="text" @EmitDataInput="getSkill" />
-        </div>
-        <div>
-          <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Level - <span class="text-orange-300"> Skillfull</span> </p>
-          <Input type="text" />
+      <div :class="[openCloseForm]">
+        <div class="sm:grid grid-cols-2 items-end gap-8">
+          <div>
+            <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Skills</p>
+            <Input type="text" @EmitDataInput="getSkill" />
+          </div>
+          <div>
+            <p class="mt-3 mb-[6px] text-sm text-[#8e929e]">Level - <span class="text-orange-300"> Skillfull</span> </p>
+            <Input type="text" />
+          </div>
         </div>
       </div>
     </div>
