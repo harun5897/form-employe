@@ -26,7 +26,7 @@
               <p class="text-sm font-bold text-[#323A46]">(Not specified)</p>
               <IconArrow class="rotate-180" />
             </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle1" />
@@ -36,7 +36,7 @@
                   <Input type="text" @EmitDataInput="getCompany1" />
                 </div>
               </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Start & End Date</p>
                   <div class="grid grid-cols-2 gap-4">
@@ -81,7 +81,7 @@
                         <button class="ql-list" value="bullet"></button>
                         <button class="ql-link"></button>
                       </div>
-                      <div class="flex pr-1">
+                      <div class="sm:flex hidden pr-1">
                         <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
                         <IconPlus />
                       </div>
@@ -121,7 +121,7 @@
               <p class="text-sm font-bold text-[#323A46]">(Not specified)</p>
               <IconArrow class="rotate-180" />
             </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle2" />
@@ -131,7 +131,7 @@
                   <Input type="text" @EmitDataInput="getCompany2" />
                 </div>
               </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Start & End Date</p>
                   <div class="grid grid-cols-2 gap-4">
@@ -176,7 +176,7 @@
                         <button class="ql-list" value="bullet"></button>
                         <button class="ql-link"></button>
                       </div>
-                      <div class="flex pr-1">
+                      <div class="sm:flex hidden pr-1">
                         <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
                         <IconPlus />
                       </div>
@@ -216,7 +216,7 @@
               <p class="text-sm font-bold text-[#323A46]">(Not specified)</p>
               <IconArrow class="rotate-180" />
             </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle3" />
@@ -226,7 +226,7 @@
                   <Input type="text" @EmitDataInput="getCompany3" />
                 </div>
               </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Start & End Date</p>
                   <div class="grid grid-cols-2 gap-4">
@@ -271,7 +271,7 @@
                         <button class="ql-list" value="bullet"></button>
                         <button class="ql-link"></button>
                       </div>
-                      <div class="flex pr-1">
+                      <div class="sm:flex hidden pr-1">
                         <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
                         <IconPlus />
                       </div>
@@ -311,7 +311,7 @@
               <p class="text-sm font-bold text-[#323A46]">(Not specified)</p>
               <IconArrow class="rotate-180" />
             </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle4" />
@@ -321,7 +321,7 @@
                   <Input type="text" @EmitDataInput="getCompany4" />
                 </div>
               </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Start & End Date</p>
                   <div class="grid grid-cols-2 gap-4">
@@ -366,7 +366,7 @@
                         <button class="ql-list" value="bullet"></button>
                         <button class="ql-link"></button>
                       </div>
-                      <div class="flex pr-1">
+                      <div class="sm:flex hidden pr-1">
                         <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
                         <IconPlus />
                       </div>
@@ -406,7 +406,7 @@
               <p class="text-sm font-bold text-[#323A46]">(Not specified)</p>
               <IconArrow class="rotate-180" />
             </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Degree</p>
                   <Input type="text" @EmitDataInput="getJobTitle5" />
@@ -416,7 +416,7 @@
                   <Input type="text" @EmitDataInput="getCompany5" />
                 </div>
               </div>
-              <div class="grid grid-cols-2 items-end gap-8">
+              <div class="sm:grid grid-cols-2 items-end gap-8">
                 <div>
                   <p class="mt-5 mb-[6px] text-sm text-[#8e929e]">Start & End Date</p>
                   <div class="grid grid-cols-2 gap-4">
@@ -461,7 +461,7 @@
                         <button class="ql-list" value="bullet"></button>
                         <button class="ql-link"></button>
                       </div>
-                      <div class="flex pr-1">
+                      <div class="sm:flex hidden pr-1">
                         <span class="mb-[6px] text-sm text-[#8e929e] mr-1">Pre-written Phrases</span>
                         <IconPlus />
                       </div>
