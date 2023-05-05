@@ -38,7 +38,7 @@ import IconPlus from '@/components/icon/PlusCicrcle.vue'
 
 const content = ref('e.g Passionate science teacher with 8+ years of expereience and a track record of ...')
 watch(() => content.value, (val) => {
-  console.log(val)
+  // console.log(val)
 })
 </script>
 
